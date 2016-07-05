@@ -1,0 +1,16 @@
+.navbar{
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+body{
+  background-color: black;
+}
+#imagecont{
+  margin-top: 100px;
+}
+.labels{
+  color: white;
+}
+.panel-body:hover{
+  transform: scale(1.25);
+}

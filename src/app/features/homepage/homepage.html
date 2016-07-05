@@ -2,9 +2,204 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Movie-flix with BS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="homepage.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Movie-Flix</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Browse</a></li>
+        <li><a href="#">KIDS</a></li>
+        <li><a href="#">DVD</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle glyphicon glyphicon-user" data-toggle="dropdown" href="#"> Account
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../signin/signin.html">Login</a></li>
+            <li><a href="../signup/signup.html">Signup</a></li>
+          </ul>
+        </li>
+      </ul>
 
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="position: relative ;top:100px">
+  <h3 class="labels">Continue watching</h3>
+</div>
+
+<div id="imagecont" class="container">
+  <div class="row">
+    <div class="col-sm-2" style="padding-right: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/fightclub.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="fightclub"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/godfather 1.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="GodFather"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/darknight.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Dark Knight"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary"  style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/pulp fiction.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Pulp Fiction"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse">
+      <div class="panel panel-primary"  style="border-collapse: collapse;border:0 solid black;">
+
+        <div class="panel-body"><img src="/src/_assets/images/shawshank.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Shawshank Redemption"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse">
+      <div class="panel panel-primary" style="border-collapse: collapse;border:0 solid black;">
+
+        <div class="panel-body"><img src="/src/_assets/images/forrestgump.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Forrest Gump"></div>
+
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container">
+  <h3 class="labels">Your Favorites</h3>
+</div>
+<div id="imagecont2" class="container">
+  <div class="row">
+    <div class="col-sm-2" style="padding-right: 0;border-collapse:collapse;border:0 solid black;">
+
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/fightclub.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="fightclub"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/godfather 1.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="GodFather"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/darknight.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Dark Knight"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary"  style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/pulp fiction.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Pulp Fiction"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse">
+      <div class="panel panel-primary"  style="border-collapse: collapse;border:0 solid black;">
+
+        <div class="panel-body"><img src="/src/_assets/images/shawshank.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Shawshank Redemption"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse">
+      <div class="panel panel-primary" style="border-collapse: collapse;border:0 solid black;">
+
+        <div class="panel-body"><img src="/src/_assets/images/forrestgump.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Forrest Gump"></div>
+
+      </div>
+    </div>
+  </div><br><br>
+  <div class="container">
+    <h3 class="labels">Top Movies</h3>
+  </div>
+<div id="imagecont3" class="container">
+  <div class="row">
+    <div class="col-sm-2" style="padding-right: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/fightclub.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="fightclub"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/godfather 1.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="GodFather"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary" style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/darknight.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Dark Knight"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse;border:0 solid black;">
+      <div class="panel panel-primary"  style="border-collapse: collapse">
+
+        <div class="panel-body"><img src="/src/_assets/images/pulp fiction.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Pulp Fiction"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse">
+      <div class="panel panel-primary"  style="border-collapse: collapse;border:0 solid black;">
+
+        <div class="panel-body"><img src="/src/_assets/images/shawshank.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Shawshank Redemption"></div>
+
+      </div>
+    </div>
+    <div class="col-sm-2" style="padding: 0;border-collapse:collapse">
+      <div class="panel panel-primary" style="border-collapse: collapse;border:0 solid black;">
+
+        <div class="panel-body"><img src="/src/_assets/images/forrestgump.jpg" class="img-responsive thumbnail" style="width:100%;height:100px;" alt="Forrest Gump"></div>
+
+      </div>
+    </div>
+  </div><br><br>
+<footer class="container-fluid text-center">
+  <p>MovieFlix Copyright</p>
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up for deals</button>
+  </form>
+</footer><br>
+  </div>
+  </div>
 </body>
 </html>
